@@ -8,11 +8,11 @@ h1 {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 body > div {
-  padding: 3em;
+  padding: 3rem;
 }
 
 body > div > * {
@@ -23,12 +23,56 @@ body > div > * {
 
 iframe {
   width: 100%;
-  height: 30em;
+  height: 30rem;
+  border-radius: 1.5rem;
+}
+
+.circle {
+  position: absolute; 
+  border-radius: 50%;
+  border-width: 5px;
+  border-color: white;
+  border-style: solid;
+  z-index: 999;
+  width: 5rem;
+  height: 5rem;
+  opacity: 0;
+  animation-name: appear;
+  animation-duration: 2s; 
+  animation-delay: 4s; 
+  animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+    to {
+        opacity: 1;
+    }
+}
+
+.circle.right {
+  margin-top: 12.5rem;
+  margin-left: calc(50% - 175px);
+}
+
+.circle.left {
+  margin-top: 13rem;
+  margin-left: calc(50% - 20px);
+}
+
+.circle.head {
+  margin-top: 1.2rem;
+  margin-left: calc(50% - 98px);
+}
+
+.circle:hover {
+  background-color: rgba(255,255,255,0.5);
+  cursor: pointer;
 }
 
 .hands {
   display: flex;
   width: 100%;
+  gap: 1.5rem;
 }
 
 .hand {
@@ -39,6 +83,7 @@ iframe {
 img {
   width: 100%;
   display: block;
+  border-radius: 1.5rem;
 }
 
 .imagine {
