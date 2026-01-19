@@ -52,7 +52,7 @@ iframe {
 	background-color: white;
 	z-index: 999;
 	width: 2px;
-	height: 7rem;
+	height: 6rem;
 	opacity: 0;
 	animation-name: appear;
 	animation-duration: 2s;
@@ -61,14 +61,39 @@ iframe {
 }
 
 .line.right-eye {
-	margin-top: 2.2rem;
-	margin-left: calc(50% + 53px);
+	margin-top: 2.5rem;
+	margin-left: calc(50% + 45px);
 	transform: rotate(120deg);
 }
 
 .circle.right-eye {
-	margin-top: 2.2rem;
-	margin-left: calc(50% + 53px);
+	margin-top: 5rem;
+	margin-left: calc(50% + 85px);
+}
+
+.line.left-eye {
+	margin-top: 2.8rem;
+	height: 5rem;
+	margin-left: calc(50% - 55px);
+	transform: rotate(-120deg);
+}
+
+.circle.left-eye {
+	margin-top: 5rem;
+	margin-left: calc(50% - 170px);
+}
+
+.right-eyeball, .left-eyeball {
+	display: block;
+	position: absolute;
+	width: calc(1216px / 20);
+	height: calc(1246px / 20);
+	margin-left: calc(50% + 97px);
+	margin-top: 5.8rem;
+}
+
+.left-eyeball {
+	margin-left: calc(50% - 157px);
 }
 
 @keyframes appear {
