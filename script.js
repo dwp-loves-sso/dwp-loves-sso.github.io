@@ -1,8 +1,20 @@
+let section1 = document.getElementById("section-1");
+let head = document.getElementById("head");
+let rightHand = document.getElementById("right-hand");
+let leftHand = document.getElementById("left-hand");
+let rightEye = document.getElementById("right-eye");
+let leftEye = document.getElementById("left-eye");
 
+let prevView = "show-body";
 
-const section1 = document.getElementById("section-1");
-const head = document.getElementById("head");
-const rightHand = document.getElementById("right-hand");
-const leftHand = document.getElementById("left-hand");
-const rightEye = document.getElementById("right-eye");
-const leftEye = document.getElementById("left-eye");
+function changeView(bodyPart) {
+    section1.classList.remove(prevView);
+    section1.classList.add("show-" + bodyPart);
+    prevView = "show-" + bodyPart;
+}
+
+head.addEventListener("click", () => changeView("head"));
+rightHand.addEventListener("click", () => changeView("right-hand"));
+leftHand.addEventListener("click", () => changeView("left-hand"));
+rightEye.addEventListener("click", () => changeView("right-eye"));
+leftEye.addEventListener("click", () => changeView("left-eye"));
