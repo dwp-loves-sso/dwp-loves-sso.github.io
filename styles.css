@@ -90,6 +90,10 @@ iframe {
 	height: calc(1246px / 20);
 	margin-left: calc(50% + 97px);
 	margin-top: 5.8rem;
+	animation-name: appear;
+	animation-duration: 2s;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
 }
 
 .left-eyeball {
