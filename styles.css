@@ -143,6 +143,18 @@ iframe {
 	width: 50%;
 }
 
+.head-model,
+.right-hand-model,
+.left-hand-model {
+	display: none;
+}
+
+.show-head .head-model, 
+.show-right-hand .right-hand-model, 
+.show-left-hand .left-hand-model {
+	display: initial;
+}
+
 img {
 	width: 100%;
 	display: block;
@@ -153,3 +165,5 @@ img {
 	background-color: black;
 	color: white;
 }
+
+
