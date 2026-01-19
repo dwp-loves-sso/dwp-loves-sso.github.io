@@ -68,7 +68,7 @@ iframe {
 
 .circle.right-eye {
 	margin-top: 5rem;
-	margin-left: calc(50% + 85px);
+	margin-left: calc(50% - 170px);
 }
 
 .line.left-eye {
@@ -79,6 +79,11 @@ iframe {
 }
 
 .circle.left-eye {
+	margin-top: 5rem;
+	margin-left: calc(50% + 85px);
+}
+
+.circle.right-eye {
 	margin-top: 5rem;
 	margin-left: calc(50% - 170px);
 }
