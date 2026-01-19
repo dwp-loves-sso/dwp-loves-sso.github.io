@@ -47,6 +47,30 @@ iframe {
 	animation-fill-mode: forwards;
 }
 
+.line {
+	position: absolute;
+	background-color: white;
+	z-index: 999;
+	width: 2px;
+	height: 7rem;
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: 2s;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+}
+
+.line.right-eye {
+	margin-top: 2.2rem;
+	margin-left: calc(50% + 53px);
+	transform: rotate(120deg);
+}
+
+.circle.right-eye {
+	margin-top: 2.2rem;
+	margin-left: calc(50% + 53px);
+}
+
 @keyframes appear {
 	to {
 		opacity: 1;
