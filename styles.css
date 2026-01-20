@@ -47,6 +47,22 @@ iframe {
 	animation-fill-mode: forwards;
 }
 
+.circle, 
+.line,
+.left-eyeball,
+.right-eyeball,
+.body {
+	display: none;
+}
+
+.show-body .circle,
+.show-body .line, 
+.show-body .left-eyeball,
+.show-body .right-eyeball,
+.body {
+	display: block;
+}
+
 .line {
 	position: absolute;
 	background-color: white;
