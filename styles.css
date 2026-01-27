@@ -52,7 +52,7 @@ iframe {
 .left-eyeball,
 .right-eyeball,
 #person-wrapper {
-	display: none;
+	/* display: none; */
 }
 
 .show-body .circle,
@@ -60,7 +60,7 @@ iframe {
 .show-body .left-eyeball,
 .show-body .right-eyeball,
 #person-wrapper {
-	display: block;
+	/* display: block; */
 }
 
 .line {
