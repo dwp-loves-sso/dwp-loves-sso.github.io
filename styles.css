@@ -154,20 +154,20 @@ iframe {
 	gap: 1.5rem;
 } */
 
-.hand {
+/* .hand {
 	position: flex-grow;
 	width: 50%;
-}
+} */
 
-.head-model,
-.right-hand-model,
-.left-hand-model {
+#facial-wrapper,
+#left-palm-wrapper,
+#right-palm-wrapper {
 	display: none;
 }
 
-.show-head .facial-wrapper, 
-.show-right-hand .right-palm-wrapper, 
-.show-left-hand .left-palm-wrapper {
+.show-head #facial-wrapper, 
+.show-right-hand #right-palm-wrapper, 
+.show-left-hand #left-palm-wrapper {
 	display: initial;
 }
 
