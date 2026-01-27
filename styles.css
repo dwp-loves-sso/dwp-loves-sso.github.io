@@ -36,7 +36,10 @@ PERSON
 #toggle-wrapper {
 	display: flex;
 	align-items: center;
-	width: 20em;
+	width: 15em;
+	justify-content: space-between;
+	height: 3em;
+	margin: 0;
 }
 
 #person-wrapper {
