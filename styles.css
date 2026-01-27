@@ -165,9 +165,9 @@ iframe {
 	display: none;
 }
 
-.show-head .head-model, 
-.show-right-hand .right-hand-model, 
-.show-left-hand .left-hand-model {
+.show-head .facial-wrapper, 
+.show-right-hand .right-palm-wrapper, 
+.show-left-hand .left-palm-wrapper {
 	display: initial;
 }
 
