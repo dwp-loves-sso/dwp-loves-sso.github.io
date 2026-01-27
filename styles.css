@@ -27,7 +27,7 @@ iframe {
 	border-radius: 1.5rem;
 }
 
-.body {
+#person-wrapper {
 	position: relative;
 }
 
@@ -51,7 +51,7 @@ iframe {
 .line,
 .left-eyeball,
 .right-eyeball,
-.body {
+#person-wrapper {
 	display: none;
 }
 
@@ -59,7 +59,7 @@ iframe {
 .show-body .line, 
 .show-body .left-eyeball,
 .show-body .right-eyeball,
-.body {
+#person-wrapper {
 	display: block;
 }
 
@@ -148,11 +148,11 @@ iframe {
 	cursor: pointer;
 }
 
-.hands {
+/* .hands {
 	display: flex;
 	width: 100%;
 	gap: 1.5rem;
-}
+} */
 
 .hand {
 	position: flex-grow;
