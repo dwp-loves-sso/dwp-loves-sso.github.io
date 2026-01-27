@@ -27,6 +27,18 @@ iframe {
 	border-radius: 1.5rem;
 }
 
+/* 
+
+PERSON 
+
+*/
+
+#toggle-wrapper {
+	display: flex;
+	align-items: center;
+	width: 20em;
+}
+
 #person-wrapper {
 	position: relative;
 }
@@ -158,6 +170,12 @@ iframe {
 	position: flex-grow;
 	width: 50%;
 } */
+
+/* 
+
+FACIAL AND PALMS 
+
+*/
 
 #facial-wrapper,
 #left-palm-wrapper,
