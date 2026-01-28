@@ -31,6 +31,12 @@ iframe {
 	border-radius: 1.5rem;
 }
 
+#controls-wrapper {
+	display: flex; 
+	align-items: center;
+	justify-content: space-between;
+}
+
 /* 
 
 PERSON 
