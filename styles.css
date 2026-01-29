@@ -31,17 +31,17 @@ iframe {
 	border-radius: 1.5rem;
 }
 
+/* 
+
+CONTROLS
+
+*/
+
 #controls-wrapper {
 	display: flex; 
 	align-items: center;
 	justify-content: space-between;
 }
-
-/* 
-
-PERSON 
-
-*/
 
 #toggle-wrapper {
 	display: flex;
@@ -51,6 +51,16 @@ PERSON
 	height: 3em;
 	margin: 0;
 }
+
+#back-btn {
+	display: none;
+}
+
+/* 
+
+PERSON 
+
+*/
 
 #person-wrapper {
 	position: relative;
