@@ -190,12 +190,14 @@ FACIAL AND PALMS
 
 */
 
+#person-wrapper,
 #facial-wrapper,
 #left-palm-wrapper,
 #right-palm-wrapper {
 	display: none;
 }
 
+.show-person #person-wrapper,
 .show-head #facial-wrapper, 
 .show-right-hand #right-palm-wrapper, 
 .show-left-hand #left-palm-wrapper {
