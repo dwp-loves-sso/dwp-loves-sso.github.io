@@ -12,6 +12,7 @@ function changeView(bodyPart) {
     section1.classList.remove(prevView);
     section1.classList.add('show-' + bodyPart);
     prevView = 'show-' + bodyPart;
+    if (bodyPart != 'person') backBtn.style.display = 'initial';
 }
 
 head.addEventListener('click', () => changeView('head'));
