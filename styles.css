@@ -80,10 +80,10 @@ PERSON
 	/* display: none; */
 }
 
-.show-body .circle,
-.show-body .line, 
-.show-body .left-eyeball,
-.show-body .right-eyeball,
+.show-person .circle,
+.show-person .line, 
+.show-person .left-eyeball,
+.show-person .right-eyeball,
 #person-wrapper {
 	/* display: block; */
 }
