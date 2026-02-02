@@ -1,4 +1,5 @@
 let section1 = document.getElementById('section-1');
+let toggleNavBtn = document.getElementById('toggle-person-nav');
 let backBtn = document.getElementById('back-btn');
 let head = document.getElementById('head');
 let rightHand = document.getElementById('right-hand');
@@ -25,3 +26,12 @@ function showPerson() {
     changeView('person');
     backBtn.style.display = 'none';
 }
+
+function togglePersonNav() {
+    
+}
+
+toggleNavBtn.addEventListener('click', () => {
+    if (section1.classList.contains('show-nav')) section1.classList.remove('show-nav');
+    else section1.classList.add('show-nav');
+});
