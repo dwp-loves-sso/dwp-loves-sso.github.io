@@ -87,15 +87,15 @@ PERSON
 .left-eyeball,
 .right-eyeball,
 #person-wrapper {
-	/* display: none; */
+	display: none;
 }
 
-.show-person .circle,
-.show-person .line, 
-.show-person .left-eyeball,
-.show-person .right-eyeball,
+.show-nav .circle,
+.show-nav .line, 
+.show-nav .left-eyeball,
+.show-nav .right-eyeball,
 #person-wrapper {
-	/* display: block; */
+	display: block;
 }
 
 .line {
