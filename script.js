@@ -35,3 +35,11 @@ toggleNavBtn.addEventListener('click', () => {
     if (section1.classList.contains('show-nav')) section1.classList.remove('show-nav');
     else section1.classList.add('show-nav');
 });
+
+window.addEventListener('load', () => {
+    // Delay the fade-in animation by 4 seconds on page load
+    setTimeout(function() {
+        document.getElementByClassName('circle').forEach(cir => cir.classList.add('fade-in'));
+        document.getElementByClassName('line').forEach(lin => lin.classList.add('fade-in'));
+    }, 4000);
+});
