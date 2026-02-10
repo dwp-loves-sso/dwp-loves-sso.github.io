@@ -76,10 +76,10 @@ PERSON
 	width: 5rem;
 	height: 5rem;
 	opacity: 0;
-	animation-name: appear;
+	/* animation-name: appear;
 	animation-duration: 2s; 
 	animation-delay: 4s; 
-	animation-fill-mode: forwards;
+	animation-fill-mode: forwards; */
 }
 
 .circle, 
@@ -105,10 +105,21 @@ PERSON
 	width: 2px;
 	height: 6rem;
 	opacity: 0;
-	animation-name: appear;
+	/* animation-name: appear;
 	animation-duration: 2s;
 	animation-delay: 4s;
-	animation-fill-mode: forwards;
+	animation-fill-mode: forwards; */
+}
+
+.circle,
+.line {
+	opacity: 0; 
+	transition: opacity 2s ease;
+}
+
+.circle.fade-in,
+.line.fade-in {
+	opacity: 1; 
 }
 
 .line.right-eye {
@@ -157,11 +168,11 @@ PERSON
 	margin-left: calc(50% - 157px);
 }
 
-@keyframes appear {
+/* @keyframes appear {
 	to {
 		opacity: 1;
 	}
-}
+} */
 
 .circle.right {
 	margin-top: 12.5rem;
