@@ -158,10 +158,10 @@ PERSON
 	margin-left: calc(50% + 97px);
 	margin-top: 5.8rem;
 	opacity: 0;
-	animation-name: appear;
+	/* animation-name: appear;
 	animation-duration: 2s;
 	animation-delay: 4s;
-	animation-fill-mode: forwards;
+	animation-fill-mode: forwards; */
 }
 
 .left-eyeball {
