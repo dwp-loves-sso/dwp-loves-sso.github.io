@@ -39,7 +39,7 @@ toggleNavBtn.addEventListener('click', () => {
 window.addEventListener('load', () => {
     // Delay the fade-in animation by 4 seconds on page load
     setTimeout(function() {
-        document.getElementByClassName('circle').forEach(cir => cir.classList.add('fade-in'));
-        document.getElementByClassName('line').forEach(lin => lin.classList.add('fade-in'));
+        document.getElementsByClassName('circle').forEach(cir => cir.classList.add('fade-in'));
+        document.getElementsByClassName('line').forEach(lin => lin.classList.add('fade-in'));
     }, 4000);
 });
